@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Калькулятор дохода</string>
+    <string name="label">В этом приложении можно узнать сколько человек зарабатывает
+        за одну секунду, за одну минуту,за один  час, за один день, за одну неделю,
+    за один месяц, и за один год.Так же расчитываеться время для покупки квартиры.</string>
+    <string name="about_auther"> Хочу выразить благодарность авторам идеи, а именно : Владу Владиславскому,
+        Натали Шалавинской, Артему Моисеенко.Предложение и конструктивную критику можно присылать
+    на адрес felexey1@gmail.com</string>
+    <string name="authers">Авторы</string>
+    <string name="about">О приложении</string>
+
+    <string name="Manth_salary1"> Ваш доход  за месяц : </string>
+    <string name="Year_salary"> за Год : </string>
+    <string name="Manth_salary"> за месяц : </string>
+    <string name="Week_salary"> за Неделю : </string>
+    <string name="Day_salary"> за День : </string>
+    <string name="Hour_salary"> за Час : </string>
+    <string name="Minute_salary"> за Минуту  : </string>
+    <string name="Second_salary"> за Секунду : </string>
+    <string name = "kop"> коп.</string>
+    <string name = "grn"> ГРН</string>
+    <string name = "zero">Пожалуйста введите значение больше нуля!</string>
+    <string name = "yers"> лет ( это без учета трат на питания, одежду и т.п.)</string>
+    <string name="Manth_day">Количество рабочих дней в месяце</string>
+    <string name="day_hour">Количество рабочих часов в день</string>
+    <string name="salary">Посчитай свою секундочку</string>
+    <string name="Calculete_salary">Ваша зарплата :</string>
+    <string name="title_activity_scale">Шкала дохода</string>
+    <string name="title_activity_calculate">Калькулятор дохода</string>
+    <string name="ok">OK</string>
+    <string name="title_activity_recommendations">Рекомендации</string>
+    <string name="title_calculete">Что бы узнать сколько Вы зарабатываете в секунду, заполните поля ниже :</string>
+    <string name="recommendations">Что бы зароботать на квартиру с вашим доходом необходимо  </string>
+    <string name="toast">Пожалуйста заполните поля выше!</string>
+    <string name="title_activity_animate">Визуальный доход</string>
+    <string name="reboot">Пересчитать!</string>
+    <string name="reboot_tost">Пересчитано успешно!</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="room">цена квартиры 50 тыс.$</string>
+    <string name="baks">курс $ 30</string>
+</resources>

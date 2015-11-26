@@ -1,0 +1,143 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="20dp"
+            android:background="@drawable/fone">
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/Calculete_salary"
+                android:id="@+id/textView4"
+                android:paddingLeft="20dp"
+                android:paddingTop="80dp"
+                android:layout_alignBottom="@+id/YS"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="59dp" />
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/Year_salary"
+                android:id="@+id/YS"
+                android:layout_marginTop="201dp"
+                android:layout_alignParentTop="true"
+                android:layout_toStartOf="@+id/textView4"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignRight="@+id/Manth_Salary"
+                android:layout_alignEnd="@+id/Manth_Salary" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/Manth_salary"
+                android:id="@+id/Manth_Salary"
+                android:layout_below="@+id/YS"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignRight="@+id/Week_salary"
+                android:layout_alignEnd="@+id/Week_salary"
+                 />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/Day_salary"
+                android:id="@+id/Days_salary"
+                android:layout_below="@+id/Week_salary"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignRight="@+id/Week_salary"
+                android:layout_alignEnd="@+id/Week_salary"
+
+                 />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/Hour_salary"
+                android:id="@+id/Hour_salary"
+                android:layout_below="@+id/Days_salary"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignRight="@+id/Days_salary"
+                android:layout_alignEnd="@+id/Days_salary"
+                 />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/Minute_salary"
+                android:id="@+id/Minute_salary"
+                android:layout_below="@+id/Hour_salary"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                 />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/Second_salary"
+                android:id="@+id/Second_salary"
+                android:layout_below="@+id/Minute_salary"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignRight="@+id/Minute_salary"
+                android:layout_alignEnd="@+id/Minute_salary"
+                 />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/Week_salary"
+                android:id="@+id/Week_salary"
+                android:layout_below="@+id/Manth_Salary"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+               />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ok"
+                android:id="@+id/button3"
+                android:onClick="onClick"
+                android:nestedScrollingEnabled="true"
+
+                android:background="@drawable/bgb"
+                android:layout_below="@+id/Second_salary"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="52dp" />
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+
+
+
+
+</RelativeLayout>
